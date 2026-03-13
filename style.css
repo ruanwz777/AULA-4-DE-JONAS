@@ -1,0 +1,29 @@
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+background: #f01111;
+display: flex;
+}
+li {
+position: relative;
+}
+a {
+color: rgb(234, 240, 215);
+text-decoration: none;
+padding: 15px 20px;
+display: block;
+}
+a:hover {
+background: #96e405;
+}
+li ul {
+display: none;
+position: absolute;
+background: #e15b09;
+flex-direction: column;
+}
+
+li:hover ul {
+display: block;
+}
